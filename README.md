@@ -1,8 +1,8 @@
-# Module 12 Report Template
+# Module 20
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+This is a breakdown of the steps and purpose for Module 20 Assignment:
 
 * Explain the purpose of the analysis.
 * Explain what financial information the data was on, and what you needed to predict.
@@ -15,12 +15,18 @@ In this section, describe the analysis you completed for the machine learning mo
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+  * Description of Model - Overall Accuracy: 99%
+  * Healthy Loans - Precision: 100% , Recall Scores: 99 %
+  * High-Risk Loans - Precision: 85% , Recall Scores: 91 %
+  * Analysis: 
 
 
 
 * Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+  * Description of Model - Overall Accuray: 99 %
+  * Healthy Loans - Precision: 100 % , Recall Scores: 99 %
+  * High-Risk Loans - Precision: 84 % , Recall Scores: 91 %
+  * Analysis: 
 
 ## Summary
 
@@ -31,9 +37,9 @@ Summarize the results of the machine learning models, and include a recommendati
 If you do not recommend any of the models, please justify your reasoning.
 
 ## Additional Resources
-These are resources used in the creation of this repository
- *ipyn
- *template for read me
- *Class solutions
- *Chat, TA and after class hours
+* These are resources used in the creation of this repository
+  *ipy
+  *template for read me
+  *Class solutions
+  *Chat, TA and after class hours
  
