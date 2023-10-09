@@ -4,42 +4,34 @@
 
 This is a breakdown of the steps and purpose for Module 20 Assignment:
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
-
+* The purpose of this assignment is to use machine learning to determine the cr4editworthiness of borrowers from an extracted data set
+* Financial data is primarily based off of previous ussuage and spending history which will be used to determine the accuracy in predictions and the variables impacting it
+* Used Value_count to help determine the difference between health cloans and that of risky loans
+* MachineLearning and Logisitical Regission models were used to determine correlataion for te machine leanring and the differents results found from it
+  
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
+A breakdown of the results found between model 1 and model 2
 
 * Machine Learning Model 1:
-  * Description of Model - Overall Accuracy: 99%
+  * Overall Accuracy: 99%
   * Healthy Loans - Precision: 100% , Recall Scores: 99 %
-  * High-Risk Loans - Precision: 85% , Recall Scores: 91 %
-  * Analysis: 
-
-
+  * High-Risk Loans - Precision: 85% , Recall Scores: 91 
 
 * Machine Learning Model 2:
-  * Description of Model - Overall Accuray: 99 %
+  * Overall Accuray: 99 %
   * Healthy Loans - Precision: 100 % , Recall Scores: 99 %
   * High-Risk Loans - Precision: 84 % , Recall Scores: 91 %
-  * Analysis: 
-
+ 
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+* Based off the findings between the two models I would go with Model 1 as it has a higher Prtecision rate with that of High-Risk Loans, as high-risk loans having a low precision it indicates that the the high risk loans for both models inability to read in complete precisioon would mean that the there is a fluctation in both models of above 12% which indicates a low risk/ high performing credit would not be read. For this reason I reccommend Model 1 for the best reading and results as the similar results mixed with the small difference would mean for the purpose of diiscission and secure spenditure, that model 1 is slightly more reliable/ 
 
 ## Additional Resources
 * These are resources used in the creation of this repository
-  *ipy
-  *template for read me
-  *Class solutions
-  *Chat, TA and after class hours
+  *The template from cosde is based off the provided credit_risk_classification.ipynb
+  *The README is built off the provided report-template.md
+  *Class provided solutions and work were used in refertencing code layout and solutions
+  *Chat, TA and after class hours were all used in development of code
  
