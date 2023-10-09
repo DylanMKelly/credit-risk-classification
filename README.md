@@ -32,7 +32,8 @@ If you do not recommend any of the models, please justify your reasoning.
 
 ## Additional Resources
 These are resources used in the creation of this repository
-*ipyn
-*template for read me
-*Class solutions
-*Chat, TA and after class hours
+ *ipyn
+ *template for read me
+ *Class solutions
+ *Chat, TA and after class hours
+ 
